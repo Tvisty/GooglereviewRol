@@ -1,0 +1,5 @@
+{
+  "name": "Auto Parc Rolcris - Feedback Manager",
+  "description": "A reputation management system for Auto Parc Rolcris that filters reviews based on sentiment.",
+  "requestFramePermissions": []
+}
