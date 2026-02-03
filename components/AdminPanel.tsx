@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ArrowLeft, Trash2, Phone, User, MessageSquare, ThumbsUp, ThumbsDown, Calendar, Search, RefreshCw, AlertTriangle, XCircle, Copy, ExternalLink, Shield, CheckCircle2, AlertOctagon } from 'lucide-react';
+import { ArrowLeft, Trash2, Phone, User, MessageSquare, ThumbsUp, ThumbsDown, Calendar, Search, RefreshCw, AlertTriangle, Copy, ExternalLink, Shield, CheckCircle2, AlertOctagon } from 'lucide-react';
 import { FeedbackData } from '../types';
 import { db, isConfigured } from '../firebase';
 import { collection, query, orderBy, onSnapshot, doc, deleteDoc, writeBatch, getDocs, setDoc } from 'firebase/firestore';
