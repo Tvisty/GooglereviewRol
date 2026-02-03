@@ -6,7 +6,7 @@ interface PositiveRedirectProps {
 }
 
 export const PositiveRedirect: React.FC<PositiveRedirectProps> = ({ onRedirect }) => {
-  const GOOGLE_REVIEW_URL = "https://www.google.com/search?sca_esv=dc45e1216515a3e4&sxsrf=ANbL-n7U3RIatBVm6x9rS0pOH3OuyoJHpw:1770098777234&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOdUM3U9gFaUQWxtrm10I6wubDyR9OK4HVcgqNilRXW9heXvmkVTioTp1cbWCzORWZjbiFjYR-cb49qFcBOxTXNWOYKoK&q=Rol+Cris+Auto+Reviews&sa=X&ved=2ahUKEwiLl9bm07ySAxW09LsIHZv9BfoQ0bkNegQIJhAH&biw=1920&bih=953&dpr=1&aic=0"; 
+  const GOOGLE_REVIEW_URL = "https://g.page/r/CUzVOj4lJulpEBM/review"; 
   
   const handleGoogleClick = () => {
     onRedirect();
